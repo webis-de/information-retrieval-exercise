@@ -10,7 +10,7 @@ If you try out diverse retrieval approach, try to develop each approach self-con
 
 The `baseline-retrieval-system` example contains a single Jupyter notebook  file `baseline-retrieval-system.ipynb` that implements retrieval with BM25 with default parameters (i.e., no advanced document/query processing and also no fine-tuned retrieval pipeline). If you want to use additional dependencies or libraries, please add them to the `Dockerfile` (if you modify the Dockerfile, please rebuild the dev container).
 
-A self-contained submission can then be submitted to TIRA using GitHub actions. See the [Submitting Your Software](#submitting-your-software) section for more details.
+A self-contained submission can then be submitted to TIRA using GitHub actions. See the [submitting your retrieval system](#submitting-your-retrieval-systems) section for more details.
 
 ## Developing your Retrieval System
 
