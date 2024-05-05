@@ -57,7 +57,7 @@ You can test your submission locally (e.g., if you want to debug a problem in th
 
 ```bash
 tira-run \
-    --input-dataset ir-lab-sose-2024/ir-acl-anthology-20240411-training \
+    --input-dataset ir-lab-sose-2024/ir-acl-anthology-20240504-training \
     --image {image-name}
 ```
 
