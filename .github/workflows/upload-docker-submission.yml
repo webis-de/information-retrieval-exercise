@@ -5,6 +5,7 @@ on:
       notebook:
         description: The path to the jupyter notebook that you want to execute.
         required: true
+        default: baseline-retrieval-system/baseline-retrieval-system.ipynb
 jobs:
   docker-build:
     runs-on: ubuntu-latest
@@ -35,7 +36,8 @@ jobs:
         name: Install required python packages
         run: |
           python -m pip install --upgrade pip
-          pip install tira
+          pip uninstall -y requests
+          pip install tira==0.0.128 requests==2.31.0
       -
         name: Set environment variables
         env:
