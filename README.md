@@ -1,5 +1,7 @@
 # IR Lab SoSe 2024: Retrieval Systems by TIRA_USER_FOR_AUTOMATIC_REPLACEMENT
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/webis-de/information-retrieval-exercise/tree/main/baseline-retrieval-system/baseline-retrieval-system.ipynb?quickstart=1)
+
 This repository contains the retrieval systems of TIRA_USER_FOR_AUTOMATIC_REPLACEMENT. We will implement and evaluate retrieval systems for a corpus of scientific papers (title + abstracts) from the fields of information retrieval and natural language processing (the [IR Anthology](https://ir.webis.de/anthology/) and the [ACL Anthology](https://aclanthology.org/)). We will use [TIRA](https://www.tira.io/) to evaluate the retrieval systems on a set of datasets. The evaluation is done in a controlled environment to improve reproducibility and comparability of the results.
 
 We recommend that you work either in Github Codespaces or using [dev containers with Docker](https://code.visualstudio.com/docs/devcontainers/containers). Github Codespaces are an easy option to start in a few minutes (free tier of 130 CPU hours per month), whereas dev container with Docker might be interesting if you want to put a bit more focus on technical/deployment details.
